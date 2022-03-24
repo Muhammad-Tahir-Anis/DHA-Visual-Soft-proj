@@ -1,11 +1,10 @@
-"""
-Created on Wed Feb 23 18:48:48 2022
-
-@author: muham
-"""
-
-
 def get_video_name(image_name, date):
+    """
+    This function takes two argument and generate path to video which is used on local computer where you are taking data
+    :param image_name: it takes an absolute path to image
+    :param date: it takes date on which image captured
+    :return: it returns an absolute path of video
+    """
     name = []
     video_name = ""
     image_name = image_name.split("-")
